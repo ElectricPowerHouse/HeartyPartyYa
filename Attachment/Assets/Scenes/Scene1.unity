@@ -143,6 +143,7 @@ GameObject:
   - 212: {fileID: 500342037}
   - 58: {fileID: 500342038}
   - 50: {fileID: 500342039}
+  - 231: {fileID: 500342040}
   m_Layer: 8
   m_Name: Player1
   m_TagString: Untagged
@@ -227,6 +228,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!231 &500342040
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500342035}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 1000759613}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 108.93117
+  m_DampingRatio: 0
+  m_Frequency: 1
 --- !u!1001 &559126975
 Prefab:
   m_ObjectHideFlags: 0
@@ -648,7 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71ef6ffc17fb04246b7276e271aa6930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 40
   player1: {fileID: 500342035}
   player2: {fileID: 1000759611}
   rigidBody1: {fileID: 0}
