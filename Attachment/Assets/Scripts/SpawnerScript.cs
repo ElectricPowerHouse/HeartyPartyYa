@@ -4,7 +4,7 @@ using System.Collections;
 public class SpawnerScript : MonoBehaviour {
 
     //public Transform background;
-    public RectTransform rt;
+    public BoxCollider2D	 rt;
    
 
     public GameObject[] prefabs;
@@ -31,13 +31,9 @@ public class SpawnerScript : MonoBehaviour {
         //so the rest of the method is not called.
         yield return new WaitForSeconds(delay);
 
-        float panelWidth = rt.rect.width * rt.localScale.x;
-        float panelHeight = rt.rect.height * rt.localScale.y;
-        float panelX = rt.rect.x * rt.localScale.x;
-        float panelY = rt.rect.y * rt.localScale.y;
 
         //gets a random position between the min and max x values of the background
-         Vector2 newPosition = new Vector2(Random.Range(0, rt.rect.width),transform.position.y);
+		Vector2 newPosition = new Vector2(Random.Range(-(rt.size.x/2), (rt.size.x/2)),transform.position.y);
         transform.position = newPosition;
 
         var newTransform = transform;

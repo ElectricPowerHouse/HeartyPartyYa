@@ -11,8 +11,8 @@ public class SetupScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        // Resolution should always be 1920x1080
-        Screen.SetResolution(1920, 1080, false);
+        // Resolution should always be 1280 x 1024
+        Screen.SetResolution(1280, 1024, false);
     }
 	
 	// Update is called once per frame
