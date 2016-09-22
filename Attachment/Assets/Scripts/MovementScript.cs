@@ -7,7 +7,7 @@ public class MovementScript : MonoBehaviour {
     float y1;
     float x2;
     float y2;
-    float speed = 50f;
+    public float speed = 50f;
    
 
     public GameObject player1;

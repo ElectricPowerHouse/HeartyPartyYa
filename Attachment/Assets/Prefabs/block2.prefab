@@ -20,10 +20,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010665733198}
   - 212: {fileID: 212000010089971810}
-  - 61: {fileID: 61000013537391626}
   - 50: {fileID: 50000011119158508}
   - 114: {fileID: 114000010934862412}
-  - 114: {fileID: 114000012335640956}
+  - 61: {fileID: 61000011206274812}
   m_Layer: 0
   m_Name: block2
   m_TagString: Untagged
@@ -38,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014270634686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -271, y: -398, z: 0}
+  m_LocalPosition: {x: 65.49997, y: -238.5, z: 0}
   m_LocalScale: {x: 40, y: 40, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -61,7 +60,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61000013537391626
+--- !u!61 &61000011206274812
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -88,21 +87,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   block: {fileID: 1000014270634686}
   velocity: {x: 0, y: -50}
---- !u!114 &114000012335640956
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014270634686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a757b2e4dfb8d74e9d9798a40068afc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  block: {fileID: 1000014270634686}
-  trans: {fileID: 0}
-  background: {fileID: 0}
-  rt: {fileID: 0}
 --- !u!212 &212000010089971810
 SpriteRenderer:
   m_ObjectHideFlags: 1
