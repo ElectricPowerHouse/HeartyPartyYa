@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692504, g: 0.4967869, b: 0.57508504, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.4967872, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -169,15 +169,15 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.80666655, y: -0.055666666}
+  m_ConnectedAnchor: {x: 4.033333, y: -0.27833334}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!50 &189461378
 Rigidbody2D:
   serializedVersion: 2
@@ -265,9 +265,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 500342036}
   - 212: {fileID: 500342037}
-  - 58: {fileID: 500342038}
   - 50: {fileID: 500342039}
   - 114: {fileID: 500342040}
+  - 58: {fileID: 500342038}
   m_Layer: 8
   m_Name: Player1
   m_TagString: player1
@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 500342035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -93, y: 1.3, z: -5}
-  m_LocalScale: {x: 30, y: 30, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -317,7 +317,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -633898527
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7deba190a21741c4dbf219f86bc63716, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e262328e23a1764988f6c53a9df2b77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -334,7 +334,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.37
+  m_Radius: 1.675
 --- !u!50 &500342039
 Rigidbody2D:
   serializedVersion: 2
@@ -831,8 +831,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!50 &751300634
 Rigidbody2D:
   serializedVersion: 2
@@ -992,10 +992,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1000759612}
   - 212: {fileID: 1000759615}
-  - 58: {fileID: 1000759614}
   - 50: {fileID: 1000759613}
   - 233: {fileID: 1000759616}
   - 114: {fileID: 1000759617}
+  - 58: {fileID: 1000759614}
   m_Layer: 8
   m_Name: Player2
   m_TagString: player2
@@ -1011,7 +1011,7 @@ Transform:
   m_GameObject: {fileID: 1000759611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 41, y: 1, z: -5}
-  m_LocalScale: {x: 30, y: 30, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1046,7 +1046,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.37
+  m_Radius: 1.675
 --- !u!212 &1000759615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1076,7 +1076,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -633898527
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 431b2feab6946fa488640bed8a26b141, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c7b9fe3ef8afa948b34b7c1971ad48f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1101,8 +1101,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!114 &1000759617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1217,8 +1217,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!61 &1066755999
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1304,8 +1304,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!212 &1151011303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1423,8 +1423,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 90
+    m_LowerAngle: 90
+    m_UpperAngle: -90
 --- !u!212 &1198798080
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1593,6 +1593,17 @@ Prefab:
     - target: {fileID: 4000013045987084, guid: cc730f7d00770494fa2651816f3362f2, type: 2}
       propertyPath: m_RootOrder
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010736905922, guid: cc730f7d00770494fa2651816f3362f2,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04dda76ecf2ad7b498ea7154f8374644,
+        type: 3}
+    - target: {fileID: 212000010736905922, guid: cc730f7d00770494fa2651816f3362f2,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1192166015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc730f7d00770494fa2651816f3362f2, type: 2}
@@ -1808,6 +1819,17 @@ Prefab:
     - target: {fileID: 4000012286344344, guid: 3b3da9ad330e3402b940bfaedc72dbc3, type: 2}
       propertyPath: m_RootOrder
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000014074024032, guid: 3b3da9ad330e3402b940bfaedc72dbc3,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b20f115a97ecc347a8a55c2e18e8844,
+        type: 3}
+    - target: {fileID: 212000014074024032, guid: 3b3da9ad330e3402b940bfaedc72dbc3,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1192166015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b3da9ad330e3402b940bfaedc72dbc3, type: 2}

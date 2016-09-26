@@ -11,7 +11,7 @@ public class SpawnerScript : MonoBehaviour {
 	public GameObject[] fuel;
 
     public float blockDelay = 1.0f;
-	public float fuelDelay = 0.8f;
+	public float fuelDelay = 4f;
 
 	// Use this for initialization
 	void Start () {
