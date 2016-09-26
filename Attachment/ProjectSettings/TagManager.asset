@@ -44,9 +44,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Behind Sprites
-    uniqueID: 3102801281
-    locked: 0
   - name: Sprites
     uniqueID: 3661068769
     locked: 0
