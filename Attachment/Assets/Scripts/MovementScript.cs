@@ -16,6 +16,8 @@ public class MovementScript : MonoBehaviour {
 
     public Rigidbody2D rigidBody1;
     public Rigidbody2D rigidBody2;
+
+
   
 
 
