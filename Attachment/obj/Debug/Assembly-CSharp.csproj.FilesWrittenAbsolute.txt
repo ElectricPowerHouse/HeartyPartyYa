@@ -1,0 +1,17 @@
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/sam/HeartyPartyYa/Attachment/obj/Debug/Assembly-CSharp.dll
+/Users/sam/HeartyPartyYa/Attachment/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/UnityEngine.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/UnityEditor.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Mono.Cecil.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Unity.DataContract.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/sam/HeartyPartyYa/Attachment/Temp/bin/Debug/Mono.Cecil.Mdb.dll

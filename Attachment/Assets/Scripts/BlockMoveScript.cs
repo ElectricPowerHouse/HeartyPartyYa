@@ -6,6 +6,8 @@ public class BlockMoveScript : MonoBehaviour {
 
     public GameObject block;
 
+	public GameObject fuel;
+
     public Vector2 velocity = Vector2.zero;
 
     private Rigidbody2D rigidBody;
