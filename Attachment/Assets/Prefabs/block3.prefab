@@ -51,7 +51,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012494320504}
   m_UseAutoMass: 0
-  m_Mass: 200
+  m_Mass: 300
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -86,6 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   block: {fileID: 1000012494320504}
+  fuel: {fileID: 0}
   velocity: {x: 0, y: -150}
 --- !u!212 &212000011415947118
 SpriteRenderer:

@@ -325,9 +325,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0.02018649, y: 0}
+  m_Offset: {x: -0.13417678, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.44037414, y: 0.10000008}
+  m_Size: {x: 0.74910253, y: 0.10000008}
 --- !u!1 &213504263 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000010115401248, guid: cc730f7d00770494fa2651816f3362f2,
@@ -342,11 +342,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000012387942440, guid: 39ec21b50319d0845a0d1204926b37c0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 205.5
+      value: 286
       objectReference: {fileID: 0}
     - target: {fileID: 4000012387942440, guid: 39ec21b50319d0845a0d1204926b37c0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -113.5
+      value: -151
       objectReference: {fileID: 0}
     - target: {fileID: 4000012387942440, guid: 39ec21b50319d0845a0d1204926b37c0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2388,9 +2388,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.14991735, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.1}
+  m_Size: {x: 0.6998365, y: 0.10000008}
 --- !u!233 &1912626706
 HingeJoint2D:
   m_ObjectHideFlags: 0
