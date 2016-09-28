@@ -190,7 +190,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -475,7 +475,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -840,7 +840,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -1148,7 +1148,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -1517,7 +1517,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -1690,7 +1690,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -1809,7 +1809,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -1928,7 +1928,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -2047,7 +2047,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -2250,7 +2250,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -2458,7 +2458,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -633898527
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0f76597856be7d44b6bda5bb3c260e8, type: 3}
   m_Color: {r: 0.71323526, g: 0.71323526, b: 0.71323526, a: 1}
@@ -2601,6 +2601,15 @@ MonoBehaviour:
   fuel:
   - {fileID: 213504263}
   - {fileID: 1849749628}
+  backgroundBlocks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  backgroundDelay: 2
   blockDelay: 1
   fuelDelay: 0.5
 --- !u!1001 &2061265193

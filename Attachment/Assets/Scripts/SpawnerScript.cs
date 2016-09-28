@@ -9,7 +9,9 @@ public class SpawnerScript : MonoBehaviour {
 
     public GameObject[] prefabs;
 	public GameObject[] fuel;
+    public GameObject[] backgroundBlocks;
 
+    public float backgroundDelay = 0.5f;
     public float blockDelay = 1.0f;
 	public float fuelDelay = 4f;
 
@@ -71,8 +73,29 @@ public class SpawnerScript : MonoBehaviour {
 
 
 
+    public IEnumerator backgroundGenerator()
+    {
+        //this will return the method everytime the delay is not reached,
+        //so the rest of the method is not called.
+        yield return new WaitForSeconds(backgroundDelay);
 
-	void OnTriggerExit2D(Collider2D other){
+
+        //gets a random position between the min and max x values of the background
+        Vector2 newPosition = new Vector2(Random.Range(-(rt.size.x / 2), (rt.size.x / 2)), transform.position.y);
+        transform.position = newPosition;
+
+
+        var newTransform = transform;
+
+        Instantiate(backgroundBlocks[Random.Range(0, backgroundBlocks.Length)], newTransform.position, Quaternion.identity);
+
+        StartCoroutine(backgroundGenerator());
+    }
+
+
+
+
+    void OnTriggerExit2D(Collider2D other){
 		if (other != null) {
 			Destroy (other.gameObject);
 		}
