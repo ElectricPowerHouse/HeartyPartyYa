@@ -9,11 +9,11 @@ public class SpawnerScript : MonoBehaviour {
 
     public GameObject[] prefabs;
 	public GameObject[] fuel;
-    public GameObject[] backgroundBlocks;
+    public GameObject[] captureBlocks;
 
-    public float backgroundDelay = 0.5f;
+    public float captureDelay = 10f;
     public float blockDelay = 1.0f;
-	public float fuelDelay = 4f;
+	public float fuelDelay = 8f;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +21,7 @@ public class SpawnerScript : MonoBehaviour {
         //RectTransform rt = background.GetComponent<RectTransform>();
         StartCoroutine(blockGenerator());
 		StartCoroutine (fuelGenerator ());
+		StartCoroutine (captureGenerator ());
 	
 	}
 	
@@ -73,11 +74,11 @@ public class SpawnerScript : MonoBehaviour {
 
 
 
-    public IEnumerator backgroundGenerator()
+    public IEnumerator captureGenerator()
     {
         //this will return the method everytime the delay is not reached,
         //so the rest of the method is not called.
-        yield return new WaitForSeconds(backgroundDelay);
+        yield return new WaitForSeconds(captureDelay);
 
 
         //gets a random position between the min and max x values of the background
@@ -87,9 +88,9 @@ public class SpawnerScript : MonoBehaviour {
 
         var newTransform = transform;
 
-        Instantiate(backgroundBlocks[Random.Range(0, backgroundBlocks.Length)], newTransform.position, Quaternion.identity);
+        Instantiate(captureBlocks[Random.Range(0, captureBlocks.Length)], newTransform.position, Quaternion.identity);
 
-        StartCoroutine(backgroundGenerator());
+        StartCoroutine(captureGenerator());
     }
 
 

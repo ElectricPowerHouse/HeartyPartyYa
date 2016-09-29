@@ -18,9 +18,6 @@ public class MovementScript : MonoBehaviour {
     public Rigidbody2D rigidBody2;
 
 
-  
-
-
 
     // Use this for initialization
     void Start()
@@ -37,20 +34,20 @@ public class MovementScript : MonoBehaviour {
     {
 
 
-        if (Input.GetKey("a"))
+        if (Input.GetKey("d"))
         {
 
             x1 -= speed;
         }
-        if (Input.GetKey("d"))
+        if (Input.GetKey("g"))
         {
             x1 += speed;
         }
-        if (Input.GetKey("s"))
+        if (Input.GetKey("f"))
         {
             y1 -= speed;
         }
-        if (Input.GetKey("w"))
+        if (Input.GetKey("r"))
         {
             y1 += speed;
         }
