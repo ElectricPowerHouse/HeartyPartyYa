@@ -7,6 +7,8 @@ TagManager:
   - block
   - player1
   - player2
+  - capture
+  - rope
   layers:
   - Default
   - TransparentFX
@@ -46,6 +48,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 3459929675
+    locked: 0
+  - name: Fuel
+    uniqueID: 676379719
     locked: 0
   - name: Sprites
     uniqueID: 3661068769

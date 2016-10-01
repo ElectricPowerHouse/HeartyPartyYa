@@ -24,7 +24,7 @@ GameObject:
   - 50: {fileID: 50000013510276158}
   m_Layer: 0
   m_Name: captureBlock1
-  m_TagString: Untagged
+  m_TagString: capture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 1000013789414602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 284, y: 57, z: -5}
-  m_LocalScale: {x: 22, y: 22, z: 1}
+  m_LocalScale: {x: 17, y: 17, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,10 +50,10 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013789414602}
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 15
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 5
+  m_GravityScale: 3
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
